@@ -22,7 +22,7 @@ Generate the example ([FreshCut theme](https://github.com/daylerees/colour-schem
 ```bash
 pygmentize -f html -o example.html _pygments.scss
 sass pygments-theme-freshcut.scss example.css
-echo "<link rel=\"stylesheet\" href=\"example.css\" />" | cat - example.html > /tmp/out && mv /tmp/out example.html
+echo "<link rel=\"stylesheet\" href=\"example.css\" /><style>body{-webkit-font-smoothing: antialiased}</style>" | cat - example.html > /tmp/out && mv /tmp/out example.html
 ```
 
 ![render example](https://raw.github.com/MoOx/pygments-sass-base-theme/master/pygments-theme-freshcut.png)
