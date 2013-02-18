@@ -1,0 +1,12 @@
+{
+  "name": "pygments-sass-base-thme",
+  "repo": "MoOx/pygments-sass-base-thme",
+  "description": "A Pygments Sass base theme, to help you create your own.",
+  "version": "0.0.1",
+  "keywords": ["pygments", "sass", "theme"],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "_pygments.scss",
+  "files": ["_pygments.scss", "pygments-theme-freshcut.scss"]
+}
