@@ -25,4 +25,4 @@ sass pygments-theme-freshcut.scss example.css
 echo "<link rel=\"stylesheet\" href=\"example.css\" /><style>body{-webkit-font-smoothing: antialiased}</style>" | cat - example.html > /tmp/out && mv /tmp/out example.html
 ```
 
-![render example](https://raw.github.com/MoOx/pygments-sass-base-theme/master/pygments-theme-freshcut.png)
+![render example](pygments-theme-freshcut.png)
