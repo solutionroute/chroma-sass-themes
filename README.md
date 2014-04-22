@@ -1,4 +1,4 @@
-# Pygments base theme using Sass
+# Pygments base theme using Sass  _[UNMAINTAINED]_
 
 A simple [Pygments](http://pygments.org/) base theme, using [Sass](http://sass-lang.org).
 
