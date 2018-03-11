@@ -10,6 +10,8 @@ This is a fork of [sass-pygments-theme-base], thanks @MoOx for that work.
 
 ## Installation
 
+**Requirements**: A Sass compiler; this project is set up to use `npm`.
+
 Clone:
 
 	git clone https://github.com/solutionroute/chroma-sass-themes.git
