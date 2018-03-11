@@ -1,8 +1,8 @@
 // vimspectrgrey-dark, a Chroma / Pygments syntax theme 
 // Inspired by Vimspectr https://nightsense.github.io/vimspectr/
 
-$code-color-background:								#141414;
-$code-color-text:									#8a8a8a;
+$code-color-background:								darken($grey, 50%); //#141414;
+$code-color-text:									$grey; //#8a8a8a;
 
 $code-color-comment: 								#6b6b6b;
 $code-color-error: 									null;
@@ -25,13 +25,13 @@ $code-color-keyword--constant:							#6a849e; // $code-color-keyword;
 $code-color-keyword--type:								#508a82; // $code-color-keyword;
 
 $code-color-name--attribute:							$code-color-keyword; //$code-color-name;
-  $code-color-name--builtin: 							#b57988; // $code-color-name;
+$code-color-name--builtin:								#b57988; // $code-color-name;
 //  $code-color-name--class: 							$code-color-name;
 //  $code-color-name--constant: 						$code-color-name;
 //  $code-color-name--decorator: 						$code-color-name;
 //  $code-color-name--entity: 							$code-color-name;
 //  $code-color-name--exception: 						$code-color-name;
-//  $code-color-name--function: 						code-color-name;
+//  $code-color-name--function: 						$code-color-name;
 //  $code-color-name--label: 							$code-color-name;
 //  $code-color-name--namespace: 						$code-color-name;
 //  $code-color-name--other: 							$code-color-name;
