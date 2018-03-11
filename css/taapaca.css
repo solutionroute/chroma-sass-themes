@@ -1,0 +1,95 @@
+/**
+ * Pygment base code highlighter theme using Sass 
+ *
+ * @author @MoOx
+ */
+.chroma .ge {
+  font-style: italic; }
+
+.chroma .gs {
+  font-weight: bold; }
+
+.chroma .c {
+  color: #777; }
+
+.chroma .k {
+  color: purple; }
+
+.chroma .o {
+  color: orange; }
+
+.chroma .cm {
+  color: #777; }
+
+.chroma .cp {
+  color: #777; }
+
+.chroma .c1 {
+  color: #777;
+  font-style: italic; }
+
+.chroma .cs {
+  color: #777; }
+
+.chroma .kc {
+  color: purple; }
+
+.chroma .kd {
+  color: purple; }
+
+.chroma .kn {
+  color: purple; }
+
+.chroma .kp {
+  color: purple; }
+
+.chroma .kr {
+  color: purple; }
+
+.chroma .kt {
+  color: purple; }
+
+.chroma .na {
+  color: purple; }
+
+.chroma .nt {
+  color: purple; }
+
+.chroma .s {
+  color: blue; }
+
+.chroma .sb {
+  color: blue; }
+
+.chroma .sc {
+  color: blue; }
+
+.chroma .sd {
+  color: blue; }
+
+.chroma .s2 {
+  color: blue; }
+
+.chroma .se {
+  color: blue; }
+
+.chroma .sh {
+  color: blue; }
+
+.chroma .si {
+  color: blue; }
+
+.chroma .sx {
+  color: blue; }
+
+.chroma .sr {
+  color: blue; }
+
+.chroma .s1 {
+  color: blue; }
+
+.chroma .ss {
+  color: blue; }
+
+.chroma .ow {
+  color: orange; }
