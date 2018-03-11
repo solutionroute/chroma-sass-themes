@@ -8,12 +8,46 @@ Sass (SCSS) styles enable easy construction of syntax highlighting themes compat
 
 This is a fork of [sass-pygments-theme-base], thanks @MoOx for that work.
 
+## Installation
+
+Clone:
+
+	git clone https://github.com/solutionroute/chroma-sass-themes.git
+
+Or add as submodule within your project's `scss` directory:
+
+	git submodule add https://github.com/solutionroute/chroma-sass-themes.git
+
+Install node-sass:
+
+	cd chroma-sass-themes
+	npm install node-sass
+
+Generate pre-defined themes:
+
+	npm run css
+
+## Using a predefined chroma theme
+
+Assuming you've added `chroma-sass-themes` in your project's `scss` directory,
+include in your main scss file:
+
+	@import "chrome-sass-themes/scss/taapaca";
+
 ## Examples
 
 See `scss/taapaca.scss` and the accompanying screenshot for a minimal but
 functional example of the output.
 
 ![taapaca example](docs/taapaca.jpg)
+
+## TODO
+
+* Add sample HTML 
+
+<br>
+
+## WORK IN PROGRESS
 
 This is a new fork as of March 2018; the balance of this README is unchanged since the fork; work in progress.
 
