@@ -4,7 +4,7 @@
  * @author @MoOx
  */
 
-$code-base-selector: ".highlight";
+$code-base-selector: ".chroma";
 $code-base-selector-block: "div.highlight";
 
 $code-tab-size: 		4;
@@ -22,41 +22,41 @@ $code-color-fade:		#bebec5 !default;
 $code-text-shadow: 		0 1px 0 #000 !default;
 $code-box-shadow: 		1px 1px .3em -.1em #000 inset;;
 
-@if $code-base-selector != null {
-	#{$code-base-selector} {
-		-moz-tab-size: $code-tab-size;
-		-o-tab-size: $code-tab-size;
-		tab-size: $code-tab-size;
+//@if $code-base-selector != null {
+	//#{$code-base-selector} {
+		//-moz-tab-size: $code-tab-size;
+		//-o-tab-size: $code-tab-size;
+		//tab-size: $code-tab-size;
 
-		-webkit-hyphens: $code-hyphens;
-		-moz-hyphens: $code-hyphens;
-		-ms-hyphens: $code-hyphens;
-		hyphens: $code-hyphens;
+		//-webkit-hyphens: $code-hyphens;
+		//-moz-hyphens: $code-hyphens;
+		//-ms-hyphens: $code-hyphens;
+		//hyphens: $code-hyphens;
 
-		// whitespace management
-		white-space: pre; // fallback
-		white-space: pre-wrap;
-		word-break: break-all;
-		word-wrap: break-word;
+		//// whitespace management
+		//white-space: pre; // fallback
+		//white-space: pre-wrap;
+		//word-break: break-all;
+		//word-wrap: break-word;
 		
-		font-family: $code-font-family;
-		font-size: 	$code-font-size;
-		line-height: $code-line-height;
+		//font-family: $code-font-family;
+		//font-size: 	$code-font-size;
+		//line-height: $code-line-height;
 
-		color: $code-color;
-		text-shadow: $code-text-shadow;
-		background: $code-background;
-	}
-}
+		//color: $code-color;
+		//text-shadow: $code-text-shadow;
+		//background: $code-background;
+	//}
+//}
 
-@if $code-base-selector != null {
-	#{$code-base-selector-block} {
-		padding: $code-padding;
-		border-radius: $code-border-radius;
-		border: $code-border;
-		box-shadow: $code-box-shadow;
-	}
-}
+//@if $code-base-selector != null {
+	//#{$code-base-selector-block} {
+		//padding: $code-padding;
+		//border-radius: $code-border-radius;
+		//border: $code-border;
+		//box-shadow: $code-box-shadow;
+	//}
+//}
 
 $code-color-comment: 								null !default;
 $code-color-error: 									null !default;
@@ -136,7 +136,7 @@ $code-color-text--whitespace: 						null !default;
 	
 	.cm { color: $code-color-comment--multiline } 
 	.cp { color: $code-color-comment--preproc } 
-	.c1 { color: $code-color-comment--single } 
+	.c1 { color: $code-color-comment--single; font-style: italic; } 
 	.cs { color: $code-color-comment--special } 
 	
 	.kc { color: $code-color-keyword--constant } 

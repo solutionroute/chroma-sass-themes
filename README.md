@@ -1,6 +1,23 @@
-Sass (SCSS) styles to construct syntax highlighting themes for the Go language package [Chroma](https://github.com/alecthomas/chroma). Chroma generates [Pygments](http://pygments.org/) compatible CSS classes so this tool and any themes produced can be used for either. Thanks @MoOx for starting this off years ago.
+Sass (SCSS) styles enable easy construction of syntax highlighting themes compatible with both:
 
-Balance of readme unchanged for now:
+* [Pygments][], a Python module and utilities used everywhere
+* [Chroma][], a Go language package incorporated into the [Hugo][] static site
+  generator.
+
+## Acknowledgement
+
+This is a fork of [sass-pygments-theme-base], thanks @MoOx for that work.
+
+## Examples
+
+See `bulma-theme.scss` and the accompanying screenshot for a minimal but
+functional example of the output.
+
+![bulma-theme example](docs/bulma-theme.jpg)
+
+This is a new fork as of March 2018; the balance of this README is unchanged since the fork; work in progress.
+
+<hr>
 
 ## Usage
 
@@ -26,3 +43,8 @@ echo "<link rel=\"stylesheet\" href=\"example.css\" /><style>body{-webkit-font-s
 ```
 
 ![render example](pygments-theme-freshcut.png)
+
+[Chroma]: https://github.com/alecthomas/chroma
+[Pygments]: http://pygments.org/
+[sass-pygments-theme-base]: https://github.com/MoOx/sass-pygments-theme-base
+[Hugo]: https://gohugo.io/
