@@ -1,3 +1,5 @@
+// Use this as a base for developing your theme. Rename with a .scss final extension.
+
 //  $code-color-comment: 								null;
 //  $code-color-error: 									null;
 //  $code-color-keyword: 								null;
