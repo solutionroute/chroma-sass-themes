@@ -10,10 +10,10 @@ This is a fork of [sass-pygments-theme-base], thanks @MoOx for that work.
 
 ## Examples
 
-See `bulma-theme.scss` and the accompanying screenshot for a minimal but
+See `scss/taapaca.scss` and the accompanying screenshot for a minimal but
 functional example of the output.
 
-![bulma-theme example](docs/bulma-theme.jpg)
+![taapaca example](docs/taapaca.jpg)
 
 This is a new fork as of March 2018; the balance of this README is unchanged since the fork; work in progress.
 
