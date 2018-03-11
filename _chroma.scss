@@ -1,62 +1,10 @@
-/**
- * Pygment base code highlighter theme using Sass 
- *
- * @author @MoOx
- */
+/*! github.com/solutionroute/chroma-sass-themes */
 
 $code-base-selector: ".chroma";
 $code-base-selector-block: "div.highlight";
 
-$code-tab-size: 		4;
-$code-hyphens: 			none;
-$code-font-family: 		Menlo, Monaco, "Courier New", monospace	!default;
-$code-font-size: 		12px !default;
-$code-padding: 			12px !default;
-$code-line-height:		18px !default;
-$code-border-radius: 	5px !default;
-
-$code-border: 			1px solid #e1e1e8 !default;
 $code-background: 		#2a2a2a !default;
 $code-color: 			#fff !default;
-$code-color-fade:		#bebec5 !default;
-$code-text-shadow: 		0 1px 0 #000 !default;
-$code-box-shadow: 		1px 1px .3em -.1em #000 inset;;
-
-//@if $code-base-selector != null {
-	//#{$code-base-selector} {
-		//-moz-tab-size: $code-tab-size;
-		//-o-tab-size: $code-tab-size;
-		//tab-size: $code-tab-size;
-
-		//-webkit-hyphens: $code-hyphens;
-		//-moz-hyphens: $code-hyphens;
-		//-ms-hyphens: $code-hyphens;
-		//hyphens: $code-hyphens;
-
-		//// whitespace management
-		//white-space: pre; // fallback
-		//white-space: pre-wrap;
-		//word-break: break-all;
-		//word-wrap: break-word;
-		
-		//font-family: $code-font-family;
-		//font-size: 	$code-font-size;
-		//line-height: $code-line-height;
-
-		//color: $code-color;
-		//text-shadow: $code-text-shadow;
-		//background: $code-background;
-	//}
-//}
-
-//@if $code-base-selector != null {
-	//#{$code-base-selector-block} {
-		//padding: $code-padding;
-		//border-radius: $code-border-radius;
-		//border: $code-border;
-		//box-shadow: $code-box-shadow;
-	//}
-//}
 
 $code-color-comment: 								null !default;
 $code-color-error: 									null !default;
