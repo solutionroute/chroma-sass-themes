@@ -3,8 +3,8 @@
 $code-base-selector: ".chroma";
 $code-base-selector-block: "div.highlight";
 
-$code-background: 		#2a2a2a !default;
-$code-color: 			#fff !default;
+$code-color-background:								#2a2a2a !default;
+$code-color-text:									#fff !default;
 
 $code-color-comment: 								null !default;
 $code-color-error: 									null !default;
@@ -137,4 +137,11 @@ $code-color-text--whitespace: 						null !default;
 	
 	.ow { color: $code-color-operator--word } 
 	.w { color: $code-color-text--whitespace }
+}
+
+
+//$code-base-selector-block{
+div.highlight, .highlight pre {
+	background-color: $code-color-background;
+	color: $code-color-text;
 }
