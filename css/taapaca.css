@@ -1,8 +1,4 @@
-/**
- * Pygment base code highlighter theme using Sass 
- *
- * @author @MoOx
- */
+/*! github.com/solutionroute/chroma-sass-themes */
 .chroma .ge {
   font-style: italic; }
 
@@ -56,40 +52,40 @@
   color: purple; }
 
 .chroma .s {
-  color: blue; }
+  color: green; }
 
 .chroma .sb {
-  color: blue; }
+  color: green; }
 
 .chroma .sc {
-  color: blue; }
+  color: green; }
 
 .chroma .sd {
-  color: blue; }
+  color: green; }
 
 .chroma .s2 {
-  color: blue; }
+  color: green; }
 
 .chroma .se {
-  color: blue; }
+  color: green; }
 
 .chroma .sh {
-  color: blue; }
+  color: green; }
 
 .chroma .si {
-  color: blue; }
+  color: green; }
 
 .chroma .sx {
-  color: blue; }
+  color: green; }
 
 .chroma .sr {
-  color: blue; }
+  color: green; }
 
 .chroma .s1 {
-  color: blue; }
+  color: green; }
 
 .chroma .ss {
-  color: blue; }
+  color: green; }
 
 .chroma .ow {
   color: orange; }

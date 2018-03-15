@@ -1,19 +1,15 @@
-// Taapaca, a simple Chroma / Pygments syntax theme.
+// vimspectrgrey-dark, a Chroma / Pygments syntax theme 
+// Inspired by Vimspectr https://nightsense.github.io/vimspectr/
 
-// Taapaca is a Holocene volcanic complex in northern Chile's Arica
-// y Parinacota Region. Part of Chile's segment of the Andean volcanic chain,
-// it is part of the Central Volcanic Zone of the Andes which is one of four
-// distinct volcanic chains in South America.
+$code-color-background:								#141414;
+$code-color-text:									#8a8a8a;
 
-$code-color-background:								#efefef;
-$code-color-text:									#3a3a3a;
-
-$code-color-comment: 								#777;
+$code-color-comment: 								#6b6b6b;
 $code-color-error: 									null;
-$code-color-keyword: 								purple;
+$code-color-keyword: 								#6d8a50; 
 $code-color-literal: 								null;
 $code-color-name: 									null;
-$code-color-operator: 								orange;
+$code-color-operator: 								#8b6a93;
 $code-color-punctuation: 							null;
 
 //  $code-color-comment--multiline: 					$code-color-comment;
@@ -21,21 +17,21 @@ $code-color-punctuation: 							null;
 //  $code-color-comment--single: 						$code-color-comment;
 //  $code-color-comment--special: 						$code-color-comment;
 
-//  $code-color-keyword--constant: 						$code-color-keyword;
+$code-color-keyword--constant:							#6a849e; // $code-color-keyword;
 //  $code-color-keyword--declaration: 					$code-color-keyword;
 //  $code-color-keyword--namespace: 					$code-color-keyword;
 //  $code-color-keyword--pseudo: 						$code-color-keyword;
 //  $code-color-keyword--reserved: 						$code-color-keyword;
-//  $code-color-keyword--type: 							$code-color-keyword;
+$code-color-keyword--type:								#508a82; // $code-color-keyword;
 
 $code-color-name--attribute:							$code-color-keyword; //$code-color-name;
-//  $code-color-name--builtin: 							$code-color-name;
+$code-color-name--builtin:								#b57988; // $code-color-name;
 //  $code-color-name--class: 							$code-color-name;
 //  $code-color-name--constant: 						$code-color-name;
 //  $code-color-name--decorator: 						$code-color-name;
 //  $code-color-name--entity: 							$code-color-name;
 //  $code-color-name--exception: 						$code-color-name;
-//  $code-color-name--function: 						code-color-name;
+//  $code-color-name--function: 						$code-color-name;
 //  $code-color-name--label: 							$code-color-name;
 //  $code-color-name--namespace: 						$code-color-name;
 //  $code-color-name--other: 							$code-color-name;
@@ -49,7 +45,7 @@ $code-color-name--tag:									$code-color-keyword; //$code-color-name;
 
 //  $code-color-literal--date: 							$code-color-literal;
 //  $code-color-literal--number: 						$code-color-literal;
-$code-color-literal--string:							green; // $code-color-literal;
+$code-color-literal--string:							#6a849e; //green; // $code-color-literal;
 
 //  $code-color-literal--number--oct: 					$code-color-literal--number;
 //  $code-color-literal--number--hex: 					$code-color-literal--number;

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -f css/*.css",
-    "css": "node-sass --include-path node_modules scss -o css"
+    "build": "node-sass --include-path node_modules scss -o css"
   },
   "repository": {
     "type": "git",
