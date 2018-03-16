@@ -4,10 +4,7 @@ Sass (SCSS) styles enable easy construction of syntax highlighting themes compat
 * [Chroma][], a Go language package incorporated into the [Hugo][] static site
   generator.
 
-## Acknowledgement
-
-This is a fork of [sass-pygments-theme-base], thanks @MoOx for that work. This
-package includes four example themes:
+This package includes four example themes:
 
 * Taapaca
 * Github (ish)
@@ -16,6 +13,11 @@ package includes four example themes:
 
 See the [project page](https://solutionroute.github.io/chroma-sass-themes/) to
 see all four in action.
+
+## Acknowledgement
+
+This is a fork of [sass-pygments-theme-base], thanks @MoOx for that work. 
+
 
 ## Installation
 
@@ -47,8 +49,10 @@ include in your main scss file:
 
 ## Examples
 
-See `scss/taapaca.scss` and the accompanying screenshot for a minimal but
-functional example of the output.
+See `scss/taapaca.scss` in the accompanying screenshot for a minimal but
+functional example of the output.  The [project
+page](https://solutionroute.github.io/chroma-sass-themes/) has screenshots of
+the other predefined themes in this package.
 
 ![taapaca example](docs/taapaca.jpg)
 
