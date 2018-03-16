@@ -1,16 +1,13 @@
 # Example Themes
 
-**Taapaca**  
+## Taapaca
 ![Taapaca](taapaca.jpg)
 
-**vimspectr210-light**  
+## vimspectr210-light
 ![scheme](vimspectr210-light.jpg)
 
-**github**  
+## github  
 ![scheme](github.jpg)
 
-**taapaca**  
-![scheme](taapaca.jpg)
-
-**vimspectrgrey-dark**  
+## vimspectrgrey-dark
 ![scheme](vimspectrgrey-dark.jpg)
