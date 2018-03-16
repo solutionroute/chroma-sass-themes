@@ -56,8 +56,6 @@ functional example of the output.
 
 * Add sample HTML 
 
-![render example](pygments-theme-freshcut.png)
-
 [Chroma]: https://github.com/alecthomas/chroma
 [Pygments]: http://pygments.org/
 [sass-pygments-theme-base]: https://github.com/MoOx/sass-pygments-theme-base
